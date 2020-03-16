@@ -12,4 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import Compartment from './compartment-shim.js';
+
+export { Compartment };
 export { lockdown } from './lockdown-shim.js';
